@@ -1,0 +1,15 @@
+Test process
+------------
+
+In the docker container, an nginx server was used to host the single page static site
+Docker was set to run on localhost, with port 8080 displaying the index.html file using the command "docker run -it -d -p 8080:80 sca-assesment".
+To test that the container was running perfectly, both a terminal test and browser test was done.
+	For terminal:
+		test: "curl localhost:8080"
+		
+		output: contents of the index.html page was displayed in terminal
+		
+	For browser:
+		test: visit "http://localhost:8080"
+		
+		output: page was displayed correctly in browser
