@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: sca-assesment-site-onyiibliss15
+    build: .
+    container_name: sca-assesment
+    restart: always
+    ports:
+      - "8080:80"
